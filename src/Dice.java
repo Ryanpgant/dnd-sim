@@ -12,26 +12,26 @@ public class Dice {
     }
 
     public static int rollD20() {
-        return boy.nextInt(20) + 1;
+        return rollDice(1, 20);
     }
 
     public static int rollD4() {
-        return boy.nextInt(4) + 1;
+        return rollDice(1, 4);
     }
 
     public static int rollD6() {
-        return boy.nextInt(6) + 1;
+        return rollDice(1, 6);
     }
 
     public static int rollD8() {
-        return boy.nextInt(8) + 1;
+        return rollDice(1, 8);
     }
 
     public static int rollD10() {
-        return boy.nextInt(10) + 1;
+        return rollDice(1, 10);
     }
 
     public static int rollD12() {
-        return boy.nextInt(12) + 1;
+        return rollDice(1, 12);
     }
 }
